@@ -4,7 +4,7 @@
     "version": "0.0.1",
     "main": "src/app.js",
     "scripts": {
-        "start": "node src/app.js | bunyan",
+        "start": "node src/app.js",
         "stop": "pkill -SIGKILL static-http-server",
         "lint": "eslint -f table src",
         "test": "echo 'No tests' && exit 1"
@@ -31,5 +31,11 @@
         "eslint": "^5.6.1",
         "eslint-config-airbnb-base": "^13.1.0",
         "eslint-plugin-import": "^2.14.0"
+    },
+    "dependencies": {
+        "express": "^4.16.3",
+        "helmet": "^3.13.0",
+        "lodash": "^4.17.11",
+        "winston": "^3.1.0"
     }
 }
