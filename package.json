@@ -1,0 +1,35 @@
+{
+    "name": "static-http-server",
+    "description": "Bare-bones static HTTP server",
+    "version": "0.0.1",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js | bunyan",
+        "stop": "pkill -SIGKILL static-http-server",
+        "lint": "eslint -f table src",
+        "test": "echo 'No tests' && exit 1"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": "8.12.0",
+        "npm": "5.7.1"
+    },
+    "author": {
+        "name": "Nagendra Mahesh",
+        "email": "umnagendra@gmail.com",
+        "url": "https://github.com/umnagendra"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/umnagendra/static-http-server.git"
+    },
+    "bugs": {
+        "email": "umnagendra@gmail.com",
+        "url": "https://github.com/umnagendra/static-http-server/issues"
+    },
+    "devDependencies": {
+        "eslint": "^5.6.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.14.0"
+    }
+}
