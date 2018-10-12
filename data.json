@@ -1,0 +1,30 @@
+[
+    {
+        "component": {
+            "identifier": "cloudconn",
+            "name": "Hybrid Cloud Connector",
+            "version": "0.0.2",
+            "published": 1447585169000
+        },
+        "artifact": {
+            "name": "cloudconn.tar",
+            "downloadURL": "https://s3.ap-south-1.amazonaws.com/updatr.poc.artifacts/published/hybrid/cloudconn.tar",
+            "sha256sum": "96f5a9899de34da3c0004685a523f924f0a4d72a6218ee889bee40e17b41d07a",
+            "sizeBytes": "1533035"
+        }
+    },
+    {
+        "component": {
+            "identifier": "static-http-server",
+            "name": "Static HTTP Server",
+            "version": "0.0.2",
+            "published": 1539323121635
+        },
+        "artifact": {
+            "name": "static-http-server-002.tar",
+            "downloadURL": "https://s3.ap-south-1.amazonaws.com/updatr.poc.artifacts/published/hybrid/static-http-server-002.tar",
+            "sha256sum": "88386f28e5069149f5ff9fe72972b67c411e8cc1102732774808ef09448fe271",
+            "sizeBytes": "78695936"
+        }
+    }
+]
